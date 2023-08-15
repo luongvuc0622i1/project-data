@@ -1,34 +1,3 @@
-import bn01Go from './bus-routes/bn01-go.json';
-import bn01Back from './bus-routes/bn01-back.json';
-import bn02Go from './bus-routes/bn02-go.json';
-import bn02Back from './bus-routes/bn02-back.json';
-import bn03Go from './bus-routes/bn03-go.json';
-import bn03Back from './bus-routes/bn03-back.json';
-import bn08Go from './bus-routes/bn08-go.json';
-import bn08Back from './bus-routes/bn08-back.json';
-import bn27Go from './bus-routes/bn27-go.json';
-import bn27Back from './bus-routes/bn27-back.json';
-import bn68Go from './bus-routes/bn68-go.json';
-import bn68Back from './bus-routes/bn68-back.json';
-import bn86aGo from './bus-routes/bn86a-go.json';
-import bn86aBack from './bus-routes/bn86a-back.json';
-import bn86bGo from './bus-routes/bn86b-go.json';
-import bn86bBack from './bus-routes/bn86b-back.json';
-import b10aGo from './bus-routes/10a-go.json';
-import b10aBack from './bus-routes/10a-back.json';
-import b54Go from './bus-routes/54-go.json';
-import b54Back from './bus-routes/54-back.json';
-import b203Go from './bus-routes/203-go.json';
-import b203Back from './bus-routes/203-back.json';
-import b204Go from './bus-routes/204-go.json';
-import b204Back from './bus-routes/204-back.json';
-import b210Go from './bus-routes/210-go.json';
-import b210Back from './bus-routes/210-back.json';
-import b212Go from './bus-routes/212-go.json';
-import b212Back from './bus-routes/212-back.json';
-import b217Go from './bus-routes/217-go.json';
-import b217Back from './bus-routes/217-back.json';
-
 export let routes = {
   'type': 'FeatureCollection',
   'features': [
