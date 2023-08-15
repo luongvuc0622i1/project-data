@@ -1,4 +1,4 @@
-{
+export let stations = {
   // ---------------------------------------------------------------- Route BN01: Bac Ninh - Luong Tai ------------------------------------------------------
   'type': 'FeatureCollection',
   'features': [
