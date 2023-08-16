@@ -22,7 +22,7 @@ export let stations = {
           { "id": 1, "name": "BN86A", "start": true },
           { "id": 1, "name": "BN86B", "start": true },
           { "id": 71, "name": "54", "color": "red" },
-          { "name": "203", "color": "red" },
+          { "id": 51, "name": "203", "color": "green" },
           { "id": 99, "name": "217" }
         ]
       }
@@ -46,7 +46,7 @@ export let stations = {
           { "id": 2, "name": "BN86A", "color": "green" },
           { "id": 2, "name": "BN86B", "color": "green" },
           { "id": 70, "name": "54", "color": "green" },
-          { "name": "203", "color": "green" },
+          { "id": 52, "name": "203", "color": "red" },
           { "id": 98, "name": "217", "color": "green" }
         ]
       }
@@ -66,7 +66,7 @@ export let stations = {
           { "id": 3, "name": "BN01", "color": "green" },
           { "id": 3, "name": "BN08", "color": "green" },
           { "id": 72, "name": "54", "color": "green" },
-          { "name": "203", "color": "green" }
+          { "id": 50, "name": "203", "color": "red" }
         ]
       }
     },
@@ -85,7 +85,7 @@ export let stations = {
           { "id": 4, "name": "BN01", "color": "red" },
           { "id": 4, "name": "BN08", "color": "red" },
           { "id": 73, "name": "54", "color": "red" },
-          { "name": "203", "color": "red" }
+          { "id": 49, "name": "203", "color": "green" }
         ]
       }
     },
@@ -104,7 +104,7 @@ export let stations = {
           { "id": 5, "name": "BN01" },
           { "id": 5, "name": "BN08" },
           { "id": 74, "name": "54" },
-          { "name": "203" }
+          { "id": 48, "name": "203" }
         ]
       }
     },
@@ -123,7 +123,7 @@ export let stations = {
           { "id": 6, "name": "BN01", "color": "green" },
           { "id": 6, "name": "BN08", "color": "green" },
           { "id": 75, "name": "54", "color": "green" },
-          { "name": "203", "color": "green" }
+          { "id": 47, "name": "203", "color": "red" }
         ]
       }
     },
@@ -142,7 +142,7 @@ export let stations = {
           { "id": 7, "name": "BN01", "color": "red" },
           { "id": 7, "name": "BN08", "color": "red" },
           { "id": 76, "name": "54", "color": "red" },
-          { "name": "203", "color": "red" }
+          { "id": 46, "name": "203", "color": "green" }
         ]
       }
     },
@@ -4092,7 +4092,7 @@ export let stations = {
           { "id": 8, "name": "BN68", "color": "green" },
           { "id": 36, "name": "10A", "color": "green" },
           { "id": 36, "name": "54", "color": "green" },
-          { "name": "203", "color": "green" },
+          { "id": 86, "name": "203", "color": "red" },
           { "id": 72, "name": "210", "color": "red" }
         ]
       }
@@ -4112,7 +4112,7 @@ export let stations = {
           { "id": 9, "name": "BN68", "color": "red" },
           { "id": 37, "name": "10A", "color": "red" },
           { "id": 37, "name": "54", "color": "red" },
-          { "name": "203", "color": "red" },
+          { "id": 85, "name": "203", "color": "green" },
           { "id": 73, "name": "210", "color": "green" }
         ]
       }
@@ -4132,7 +4132,7 @@ export let stations = {
           { "id": 10, "name": "BN68", "color": "green" },
           { "id": 38, "name": "10A", "color": "green" },
           { "id": 38, "name": "54", "color": "green" },
-          { "name": "203", "color": "green" },
+          { "id": 84, "name": "203", "color": "red" },
           { "id": 70, "name": "210", "color": "red" }
         ]
       }
@@ -4152,7 +4152,7 @@ export let stations = {
           { "id": 11, "name": "BN68", "color": "red" },
           { "id": 39, "name": "10A", "color": "red" },
           { "id": 39, "name": "54", "color": "red" },
-          { "name": "203", "color": "red" },
+          { "id": 83, "name": "203", "color": "green" },
           { "id": 71, "name": "210", "color": "green" }
         ]
       }
@@ -4172,7 +4172,7 @@ export let stations = {
           { "id": 12, "name": "BN68", "color": "green" },
           { "id": 40, "name": "10A", "color": "green" },
           { "id": 40, "name": "54", "color": "green" },
-          { "name": "203", "color": "green" }
+          { "id": 82, "name": "203", "color": "red" }
         ]
       }
     },
@@ -4191,7 +4191,7 @@ export let stations = {
           { "id": 13, "name": "BN68", "color": "red" },
           { "id": 41, "name": "10A", "color": "red" },
           { "id": 41, "name": "54", "color": "red" },
-          { "name": "203", "color": "red" },
+          { "id": 81, "name": "203", "color": "green" },
           { "id": 69, "name": "210", "color": "green" }
         ]
       }
@@ -4212,7 +4212,7 @@ export let stations = {
           { "id": 14, "name": "BN68", "color": "green" },
           { "id": 42, "name": "10A", "start": true },
           { "id": 42, "name": "54", "color": "green" },
-          { "name": "203", "color": "green" }
+          { "id": 80, "name": "203", "color": "red" }
         ]
       }
     },
@@ -4230,7 +4230,7 @@ export let stations = {
         "routers": [
           { "id": 15, "name": "BN68", "color": "red" },
           { "id": 43, "name": "54", "color": "red" },
-          { "name": "203", "color": "red" }
+          { "id": 79, "name": "203", "color": "green" }
         ]
       }
     },
@@ -4248,7 +4248,7 @@ export let stations = {
         "routers": [
           { "id": 16, "name": "BN68", "color": "green" },
           { "id": 44, "name": "54", "color": "green" },
-          { "name": "203", "color": "green" }
+          { "id": 78, "name": "203", "color": "red" }
         ]
       }
     },
@@ -4266,7 +4266,7 @@ export let stations = {
         "routers": [
           { "id": 17, "name": "BN68", "color": "red" },
           { "id": 45, "name": "54", "color": "red" },
-          { "name": "203", "color": "red" }
+          { "id": 77, "name": "203", "color": "green" }
         ]
       }
     },
@@ -4284,7 +4284,7 @@ export let stations = {
         "routers": [
           { "id": 18, "name": "BN68", "color": "green" },
           { "id": 46, "name": "54", "color": "green" },
-          { "name": "203", "color": "green" }
+          { "id": 76, "name": "203", "color": "red" }
         ]
       }
     },
@@ -4302,7 +4302,7 @@ export let stations = {
         "routers": [
           { "id": 19, "name": "BN68", "color": "red" },
           { "id": 47, "name": "54", "color": "red" },
-          { "name": "203", "color": "red" }
+          { "id": 75, "name": "203", "color": "green" }
         ]
       }
     },
@@ -4320,7 +4320,7 @@ export let stations = {
         "routers": [
           { "id": 20, "name": "BN68", "color": "green" },
           { "id": 48, "name": "54", "color": "green" },
-          { "name": "203", "color": "green" }
+          { "id": 74, "name": "203", "color": "red" }
         ]
       }
     },
@@ -4338,7 +4338,7 @@ export let stations = {
         "routers": [
           { "id": 21, "name": "BN68", "color": "red" },
           { "id": 49, "name": "54", "color": "red" },
-          { "name": "203", "color": "red" }
+          { "id": 73, "name": "203", "color": "green" }
         ]
       }
     },
@@ -4357,7 +4357,7 @@ export let stations = {
         "routers": [
           { "id": 22, "name": "BN68", "color": "green" },
           { "id": 50, "name": "54", "color": "green" },
-          { "name": "203", "color": "green" }
+          { "id": 72, "name": "203", "color": "red" }
         ]
       }
     },
@@ -4376,7 +4376,7 @@ export let stations = {
         "routers": [
           { "id": 23, "name": "BN68", "color": "red" },
           { "id": 51, "name": "54", "color": "red" },
-          { "name": "203", "color": "red" }
+          { "id": 71, "name": "203", "color": "green" }
         ]
       }
     },
@@ -4395,7 +4395,7 @@ export let stations = {
         "routers": [
           { "id": 24, "name": "BN68", "color": "green" },
           { "id": 52, "name": "54", "color": "green" },
-          { "name": "203", "color": "green" }
+          { "id": 70, "name": "203", "color": "red" }
         ]
       }
     },
@@ -4414,7 +4414,7 @@ export let stations = {
         "routers": [
           { "id": 25, "name": "BN68", "color": "red" },
           { "id": 53, "name": "54", "color": "red" },
-          { "name": "203", "color": "red" }
+          { "id": 69, "name": "203", "color": "green" }
         ]
       }
     },
@@ -4433,7 +4433,7 @@ export let stations = {
         "routers": [
           { "id": 26, "name": "BN68", "color": "green" },
           { "id": 54, "name": "54", "color": "green" },
-          { "name": "203", "color": "green" }
+          { "id": 68, "name": "203", "color": "red" }
         ]
       }
     },
@@ -4452,7 +4452,7 @@ export let stations = {
         "routers": [
           { "id": 27, "name": "BN68", "color": "red" },
           { "id": 55, "name": "54", "color": "red" },
-          { "name": "203", "color": "red" }
+          { "id": 67, "name": "203", "color": "green" }
         ]
       }
     },
@@ -4471,7 +4471,7 @@ export let stations = {
         "routers": [
           { "id": 28, "name": "BN68", "color": "green" },
           { "id": 56, "name": "54", "color": "green" },
-          { "name": "203", "color": "green" }
+          { "id": 66, "name": "203", "color": "red" }
         ]
       }
     },
@@ -4490,7 +4490,7 @@ export let stations = {
         "routers": [
           { "id": 29, "name": "BN68", "color": "red" },
           { "id": 57, "name": "54", "color": "red" },
-          { "name": "203", "color": "red" }
+          { "id": 65, "name": "203", "color": "green" }
         ]
       }
     },
@@ -4509,7 +4509,7 @@ export let stations = {
         "routers": [
           { "id": 30, "name": "BN68", "color": "green" },
           { "id": 58, "name": "54", "color": "green" },
-          { "name": "203", "color": "green" }
+          { "id": 64, "name": "203", "color": "red" }
         ]
       }
     },
@@ -4528,7 +4528,7 @@ export let stations = {
         "routers": [
           { "id": 31, "name": "BN68", "color": "red" },
           { "id": 59, "name": "54", "color": "red" },
-          { "name": "203", "color": "red" }
+          { "id": 63, "name": "203", "color": "green" }
         ]
       }
     },
@@ -4547,7 +4547,7 @@ export let stations = {
         "routers": [
           { "id": 32, "name": "BN68", "color": "green" },
           { "id": 60, "name": "54", "color": "green" },
-          { "name": "203", "color": "green" }
+          { "id": 62, "name": "203", "color": "red" }
         ]
       }
     },
@@ -4566,7 +4566,7 @@ export let stations = {
         "routers": [
           { "id": 33, "name": "BN68", "color": "red" },
           { "id": 61, "name": "54", "color": "red" },
-          { "name": "203", "color": "red" }
+          { "id": 61, "name": "203", "color": "green" }
         ]
       }
     },
@@ -4584,7 +4584,7 @@ export let stations = {
         "routers": [
           { "id": 34, "name": "BN68", "color": "green" },
           { "id": 62, "name": "54", "color": "green" },
-          { "name": "203", "color": "green" }
+          { "id": 60, "name": "203", "color": "red" }
         ]
       }
     },
@@ -4602,7 +4602,7 @@ export let stations = {
         "routers": [
           { "id": 35, "name": "BN68", "color": "red" },
           { "id": 63, "name": "54", "color": "red" },
-          { "name": "203", "color": "red" }
+          { "id": 59, "name": "203", "color": "green" }
         ]
       }
     },
@@ -4746,7 +4746,8 @@ export let stations = {
         "address": "99-101 Ngô Gia Tự",
         "district": "Thành phố Bắc Ninh",
         "routers": [
-          { "id": 52, "name": "BN68", "color": "green" }
+          { "id": 52, "name": "BN68", "color": "green" },
+          { "id": 45, "name": "203", "color": "red" }
         ]
       }
     },
@@ -4763,7 +4764,7 @@ export let stations = {
         "district": "Thành phố Bắc Ninh",
         "routers": [
           { "id": 53, "name": "BN68", "color": "red" },
-          { "name": "203" }
+          { "id": 44, "name": "203", "color": "green" }
         ]
       }
     },
@@ -4779,7 +4780,8 @@ export let stations = {
         "address": "110-112 Lý Thường Kiệt",
         "district": "Thành phố Bắc Ninh",
         "routers": [
-          { "id": 54, "name": "BN68", "color": "green" }
+          { "id": 54, "name": "BN68", "color": "green" },
+          { "id": 43, "name": "203", "color": "red" }
         ]
       }
     },
@@ -4796,7 +4798,7 @@ export let stations = {
         "district": "Thành phố Bắc Ninh",
         "routers": [
           { "id": 55, "name": "BN68", "color": "red" },
-          { "name": "203" }
+          { "id": 42, "name": "203", "color": "green" }
         ]
       }
     },
@@ -4829,7 +4831,7 @@ export let stations = {
         "district": "Thành phố Bắc Ninh",
         "routers": [
           { "id": 57, "name": "BN68", "color": "red" },
-          { "name": "203" }
+          { "id": 41, "name": "203", "color": "green" }
         ]
       }
     },
@@ -5915,7 +5917,7 @@ export let stations = {
           { "id": 26, "name": "10A" },
           { "name": "10B" },
           { "id": 26, "name": "54" },
-          { "name": "203" },
+          { "id": 96, "name": "203" },
           { "id": 83, "name": "210" }
         ]
       }
@@ -5935,7 +5937,7 @@ export let stations = {
           { "id": 27, "name": "10A" },
           { "name": "10B" },
           { "id": 27, "name": "54" },
-          { "name": "203" },
+          { "id": 95, "name": "203" },
           { "id": 82, "name": "210" }
         ]
       }
@@ -5955,7 +5957,7 @@ export let stations = {
           { "id": 28, "name": "10A" },
           { "name": "10B" },
           { "id": 28, "name": "54" },
-          { "name": "203" },
+          { "id": 94, "name": "203" },
           { "id": 81, "name": "210" }
         ]
       }
@@ -5975,7 +5977,7 @@ export let stations = {
           { "id": 29, "name": "10A" },
           { "name": "10B" },
           { "id": 29, "name": "54" },
-          { "name": "203" },
+          { "id": 93, "name": "203" },
           { "id": 80, "name": "210" }
         ]
       }
@@ -5994,7 +5996,7 @@ export let stations = {
         "routers": [
           { "id": 30, "name": "10A" },
           { "id": 30, "name": "54" },
-          { "name": "203" },
+          { "id": 92, "name": "203" },
           { "id": 79, "name": "210" }
         ]
       }
@@ -6013,7 +6015,7 @@ export let stations = {
         "routers": [
           { "id": 31, "name": "10A", "color": "green" },
           { "id": 31, "name": "54", "color": "green" },
-          { "name": "203", "color": "green" },
+          { "id": 91, "name": "203", "color": "red" },
           { "id": 77, "name": "210", "color": "red" }
         ]
       }
@@ -6032,7 +6034,7 @@ export let stations = {
         "routers": [
           { "id": 32, "name": "10A", "color": "red" },
           { "id": 32, "name": "54", "color": "red" },
-          { "name": "203", "color": "red" },
+          { "id": 90, "name": "203", "color": "green" },
           { "id": 78, "name": "210", "color": "green" }
         ]
       }
@@ -6051,7 +6053,7 @@ export let stations = {
         "routers": [
           { "id": 33, "name": "10A", "color": "green" },
           { "id": 33, "name": "54", "color": "green" },
-          { "name": "203", "color": "green" },
+          { "id": 89, "name": "203", "color": "red" },
           { "id": 76, "name": "210", "color": "red" }
         ]
       }
@@ -6070,7 +6072,7 @@ export let stations = {
         "routers": [
           { "id": 34, "name": "10A", "color": "green" },
           { "id": 34, "name": "54", "color": "green" },
-          { "name": "203", "color": "green" },
+          { "id": 88, "name": "203", "color": "red" },
           { "id": 74, "name": "210", "color": "red" }
         ]
       }
@@ -6089,7 +6091,7 @@ export let stations = {
         "routers": [
           { "id": 35, "name": "10A", "color": "red" },
           { "id": 35, "name": "54", "color": "red" },
-          { "name": "203", "color": "red" },
+          { "id": 87, "name": "203", "color": "green" },
           { "id": 75, "name": "210", "color": "green" }
         ]
       }
@@ -6107,7 +6109,7 @@ export let stations = {
         "district": "Thành phố Bắc Ninh",
         "routers": [
           { "id": 64, "name": "54", "color": "green" },
-          { "name": "203", "color": "green" }
+          { "id": 58, "name": "203", "color": "red" }
         ]
       }
     },
@@ -6124,7 +6126,7 @@ export let stations = {
         "district": "Thành phố Bắc Ninh",
         "routers": [
           { "id": 65, "name": "54", "color": "red" },
-          { "name": "203", "color": "red" }
+          { "id": 57, "name": "203", "color": "green" }
         ]
       }
     },
@@ -6141,7 +6143,7 @@ export let stations = {
         "district": "Thành phố Bắc Ninh",
         "routers": [
           { "id": 66, "name": "54", "color": "green" },
-          { "name": "203", "color": "green" }
+          { "id": 56, "name": "203", "color": "red" }
         ]
       }
     },
@@ -6158,7 +6160,7 @@ export let stations = {
         "district": "Thành phố Bắc Ninh",
         "routers": [
           { "id": 67, "name": "54", "color": "red" },
-          { "name": "203", "color": "red" }
+          { "id": 55, "name": "203", "color": "green" }
         ]
       }
     },
@@ -6175,7 +6177,7 @@ export let stations = {
         "district": "Thành phố Bắc Ninh",
         "routers": [
           { "id": 68, "name": "54", "color": "green" },
-          { "name": "203", "color": "green" }
+          { "id": 54, "name": "203", "color": "red" }
         ]
       }
     },
@@ -6192,7 +6194,7 @@ export let stations = {
         "district": "Thành phố Bắc Ninh",
         "routers": [
           { "id": 69, "name": "54", "color": "red" },
-          { "name": "203", "color": "red" }
+          { "id": 53, "name": "203", "color": "green" }
         ]
       }
     },
