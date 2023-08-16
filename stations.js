@@ -4845,8 +4845,7 @@ export let stations = {
         "address": "72-74-Trần Lựu",
         "district": "Thành phố Bắc Ninh",
         "routers": [
-          { "id": 58, "name": "BN68", "color": "green" },
-          { "name": "203" }
+          { "id": 58, "name": "BN68", "color": "green" }
         ]
       }
     },
