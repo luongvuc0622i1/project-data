@@ -1,4 +1,7 @@
+// import { fetchDataFromApi } from "../../components/suport/fetchDataFromApi";
+
 export let b10aGo = [
+  //await fetchDataFromApi("https://api.github.com/repos/luongvuc0622i1/project-data/contents/bus-routes/b10aGo.js");
   [105.915917, 21.083978],
   [105.919987, 21.088150],
   [105.924475, 21.092673],
