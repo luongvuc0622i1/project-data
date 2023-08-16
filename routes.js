@@ -645,7 +645,7 @@ export let routes = {
       "geometry": {
         "id": "203",
         "name": "Giáp Bát - Bắc Giang",
-        "status": false
+        "status": true
       },
       "coordinates": {
         "go": "[b203Go]",
@@ -766,7 +766,7 @@ export let routes = {
       "geometry": {
         "id": "212",
         "name": "Mỹ Đình - Quế Võ",
-        "status": false
+        "status": true
       },
       "coordinates": {
         "go": "[b212Go]",
