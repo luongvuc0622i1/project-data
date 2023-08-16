@@ -270,7 +270,7 @@ export let stations = {
         "routers": [
           { "id": 14, "name": "BN01", "color": "green" },
           { "id": 14, "name": "BN08", "color": "green" },
-          { "name": "212", "color": "red" }
+          { "id": 62, "name": "212", "color": "red" }
         ]
       }
     },
@@ -288,7 +288,7 @@ export let stations = {
         "routers": [
           { "id": 15, "name": "BN01", "color": "red" },
           { "id": 15, "name": "BN08", "color": "red" },
-          { "name": "212", "color": "green" }
+          { "id": 61, "name": "212", "color": "green" }
         ]
       }
     },
@@ -306,7 +306,7 @@ export let stations = {
         "routers": [
           { "id": 16, "name": "BN01", "color": "green" },
           { "id": 16, "name": "BN08", "color": "green" },
-          { "name": "212", "color": "red" }
+          { "id": 60, "name": "212", "color": "red" }
         ]
       }
     },
@@ -324,7 +324,7 @@ export let stations = {
         "routers": [
           { "id": 17, "name": "BN01", "color": "red" },
           { "id": 17, "name": "BN08", "color": "red" },
-          { "name": "212", "color": "green" }
+          { "id": 59, "name": "212", "color": "green" }
         ]
       }
     },
@@ -343,7 +343,7 @@ export let stations = {
           { "id": 18, "name": "BN01", "color": "green" },
           { "id": 18, "name": "BN08", "color": "green" },
           { "id": 40, "name": "BN68", "color": "green" },
-          { "name": "212", "color": "red" },
+          { "id": 58, "name": "212", "color": "red" },
           { "id": 97, "name": "217", "color": "red" }
         ]
       }
@@ -363,8 +363,8 @@ export let stations = {
           { "id": 19, "name": "BN01", "color": "red" },
           { "id": 19, "name": "BN08", "color": "red" },
           { "id": 41, "name": "BN68", "color": "red" },
-          { "name": "212", "color": "red" },
-          { "id": 96, "name": "217", "color": "red" }
+          { "id": 57, "name": "212", "color": "green" },
+          { "id": 96, "name": "217", "color": "green" }
         ]
       }
     },
@@ -382,7 +382,7 @@ export let stations = {
         "routers": [
           { "id": 20, "name": "BN01", "color": "green" },
           { "id": 20, "name": "BN08", "color": "green" },
-          { "name": "212", "color": "red" },
+          { "id": 56, "name": "212", "color": "red" },
           { "id": 95, "name": "217", "color": "red" }
         ]
       }
@@ -401,7 +401,7 @@ export let stations = {
         "routers": [
           { "id": 21, "name": "BN01", "color": "red" },
           { "id": 21, "name": "BN08", "color": "red" },
-          { "name": "212", "color": "green" },
+          { "id": 55, "name": "212", "color": "green" },
           { "id": 94, "name": "217", "color": "green" }
         ]
       }
@@ -1267,7 +1267,7 @@ export let stations = {
           { "id": 5, "name": "BN02", "color": "green" },
           { "id": 5, "name": "BN86A", "color": "green" },
           { "id": 5, "name": "BN86B", "color": "green" },
-          { "name": "212", "color": "green" }
+          { "id": 63, "name": "212", "color": "green" }
         ]
       }
     },
@@ -1286,7 +1286,7 @@ export let stations = {
           { "id": 6, "name": "BN02", "color": "red" },
           { "id": 6, "name": "BN86A", "color": "red" },
           { "id": 6, "name": "BN86B", "color": "red" },
-          { "name": "212", "color": "red" }
+          { "id": 64, "name": "212", "color": "red" }
         ]
       }
     },
@@ -1305,7 +1305,7 @@ export let stations = {
           { "id": 7, "name": "BN02", "color": "green" },
           { "id": 7, "name": "BN86A", "color": "green" },
           { "id": 7, "name": "BN86B", "color": "green" },
-          { "name": "212", "color": "green" }
+          { "id": 65, "name": "212", "color": "green" }
         ]
       }
     },
@@ -1324,7 +1324,7 @@ export let stations = {
           { "id": 8, "name": "BN02", "color": "red" },
           { "id": 8, "name": "BN86A", "color": "red" },
           { "id": 8, "name": "BN86B", "color": "red" },
-          { "name": "212", "color": "red" }
+          { "id": 66, "name": "212", "color": "red" }
         ]
       }
     },
@@ -1343,7 +1343,7 @@ export let stations = {
           { "id": 9, "name": "BN02", "color": "green" },
           { "id": 9, "name": "BN86A", "color": "green" },
           { "id": 9, "name": "BN86B", "color": "green" },
-          { "name": "212", "color": "green" }
+          { "id": 67, "name": "212", "color": "green" }
         ]
       }
     },
@@ -1362,7 +1362,7 @@ export let stations = {
           { "id": 10, "name": "BN02", "color": "red" },
           { "id": 10, "name": "BN86A", "color": "red" },
           { "id": 10, "name": "BN86B", "color": "red" },
-          { "name": "212", "color": "red" }
+          { "id": 68, "name": "212", "color": "red" }
         ]
       }
     },
@@ -1382,7 +1382,7 @@ export let stations = {
           { "id": 11, "name": "BN02" },
           { "id": 11, "name": "BN86A" },
           { "id": 11, "name": "BN86B" },
-          { "name": "212" }
+          { "id": 69, "name": "212" }
         ]
       }
     },
@@ -1402,7 +1402,7 @@ export let stations = {
           { "id": 12, "name": "BN02" },
           { "id": 12, "name": "BN86A" },
           { "id": 12, "name": "BN86B" },
-          { "name": "212" }
+          { "id": 70, "name": "212" }
         ]
       }
     },
@@ -1422,7 +1422,7 @@ export let stations = {
           { "id": 13, "name": "BN02" },
           { "id": 13, "name": "BN86A" },
           { "id": 13, "name": "BN86B" },
-          { "name": "212" }
+          { "id": 71, "name": "212" }
         ]
       }
     },
@@ -1442,7 +1442,7 @@ export let stations = {
           { "id": 14, "name": "BN02" },
           { "id": 14, "name": "BN86A" },
           { "id": 14, "name": "BN86B" },
-          { "name": "212" }
+          { "id": 72, "name": "212" }
         ]
       }
     },
@@ -1461,7 +1461,7 @@ export let stations = {
           { "id": 15, "name": "BN02" },
           { "id": 15, "name": "BN86A" },
           { "id": 15, "name": "BN86B" },
-          { "name": "212" }
+          { "id": 73, "name": "212" }
         ]
       }
     },
@@ -1480,7 +1480,7 @@ export let stations = {
           { "id": 16, "name": "BN02" },
           { "id": 16, "name": "BN86A" },
           { "id": 16, "name": "BN86B" },
-          { "name": "212" }
+          { "id": 74, "name": "212" }
         ]
       }
     },
@@ -1499,7 +1499,7 @@ export let stations = {
           { "id": 17, "name": "BN02" },
           { "id": 17, "name": "BN86A" },
           { "id": 17, "name": "BN86B" },
-          { "name": "212" }
+          { "id": 75, "name": "212" }
         ]
       }
     },
@@ -1518,7 +1518,7 @@ export let stations = {
           { "id": 18, "name": "BN02" },
           { "id": 18, "name": "BN86A" },
           { "id": 18, "name": "BN86B" },
-          { "name": "212" }
+          { "id": 76, "name": "212" }
         ]
       }
     },
@@ -1537,7 +1537,7 @@ export let stations = {
           { "id": 19, "name": "BN02" },
           { "id": 19, "name": "BN86A" },
           { "id": 19, "name": "BN86B" },
-          { "name": "212" }
+          { "id": 77, "name": "212" }
         ]
       }
     },
@@ -1556,7 +1556,7 @@ export let stations = {
           { "id": 20, "name": "BN02" },
           { "id": 20, "name": "BN86A" },
           { "id": 20, "name": "BN86B" },
-          { "name": "212" }
+          { "id": 78, "name": "212" }
         ]
       }
     },
@@ -2022,7 +2022,7 @@ export let stations = {
         "district": "Yên Phong",
         "routers": [
           { "id": 14, "name": "BN03" },
-          { "name": "212", "color": "red" }
+          { "id": 54, "name": "212", "color": "red" }
         ]
       }
     },
@@ -2040,7 +2040,7 @@ export let stations = {
         "district": "Yên Phong",
         "routers": [
           { "id": 15, "name": "BN03" },
-          { "name": "212", "color": "red" }
+          { "id": 53, "name": "212", "color": "red" }
         ]
       }
     },
@@ -2058,7 +2058,7 @@ export let stations = {
         "district": "Yên Phong",
         "routers": [
           { "id": 16, "name": "BN03" },
-          { "name": "212", "color": "red" }
+          { "id": 52, "name": "212", "color": "red" }
         ]
       }
     },
@@ -2076,7 +2076,7 @@ export let stations = {
         "district": "Yên Phong",
         "routers": [
           { "id": 17, "name": "BN03" },
-          { "name": "212", "color": "red" }
+          { "id": 51, "name": "212", "color": "red" }
         ]
       }
     },
@@ -6212,7 +6212,7 @@ export let stations = {
         "address": "897 Giải Phóng",
         "district": "Hà Nội",
         "routers": [
-          { "id": 1, "name": "203", "start": true }
+          { "id": 150, "name": "203", "start": true }
         ]
       }
     },
@@ -6229,7 +6229,7 @@ export let stations = {
         "address": "486 Xương Giang",
         "district": "Thành phố Bắc Giang",
         "routers": [
-          { "id": 99, "name": "203", "start": true }
+          { "id": 1, "name": "203", "start": true }
         ]
       }
     },
@@ -6859,7 +6859,7 @@ export let stations = {
         "address": "Đường Trần Hưng Đạo",
         "district": "Thị xã Quế Võ",
         "routers": [
-          { "id": 99, "name": "212", "start": true }
+          { "id": 79, "name": "212", "start": true }
         ]
       }
     },
