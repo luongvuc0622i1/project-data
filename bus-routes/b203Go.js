@@ -2,6 +2,10 @@
 
 export let b203Go = [
   //await fetchDataFromApi("https://api.github.com/repos/luongvuc0622i1/project-data/contents/bus-routes/b203Go.js");
+  [106.087243, 21.196548]
+  [106.084376, 21.196009],
+  [106.082589, 21.195274],
+  [106.082005, 21.194924],
   [106.081709, 21.194669],
   [106.081451, 21.194443],
   [106.081060, 21.194058],
