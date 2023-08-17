@@ -1,7 +1,4 @@
-// import { fetchDataFromApi } from "../../components/suport/fetchDataFromApi";
-
 export let bn86aBack = [
-  //await fetchDataFromApi("https://api.github.com/repos/luongvuc0622i1/project-data/contents/bus-routes/bn86aBack.js");
   [106.061027, 21.180761],
   [106.062165, 21.180776],
   [106.062651, 21.180918],

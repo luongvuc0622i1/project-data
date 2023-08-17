@@ -1,8 +1,5 @@
-// import { fetchDataFromApi } from "../../components/suport/fetchDataFromApi";
-
 export let b210Back = [
-  //await fetchDataFromApi("https://api.github.com/repos/luongvuc0622i1/project-data/contents/bus-routes/b210Back.js");
-  [105.990757, 21.346510],
+  // [105.990757, 21.346510],
 
   [105.983158, 21.221802],
   [105.982173, 21.219092],
@@ -81,5 +78,5 @@ export let b210Back = [
   [105.919987, 21.088150],
   [105.915917, 21.083978],
 
-  [105.878533, 21.047953]
+  // [105.878533, 21.047953]
 ]
