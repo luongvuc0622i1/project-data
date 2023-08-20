@@ -1,4 +1,4 @@
-export let stations = {
+export let stationsData = {
   // ---------------------------------------------------------------- Route BN01: Bac Ninh - Luong Tai ------------------------------------------------------
   "type": "FeatureCollection",
   "features": [
@@ -410,7 +410,7 @@ export let stations = {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [106.067683, 21.159265]
+        "coordinates": [106.067789, 21.158843]
       },
       "properties": {
         "name": "Cầu Bồ Sơn",
@@ -418,9 +418,27 @@ export let stations = {
         "address": "678-680 Nguyễn Trãi",
         "district": "Thành phố Bắc Ninh",
         "routers": [
-          { "id": 22, "name": "BN01" },
-          { "id": 22, "name": "BN08" },
-          { "id": 93, "name": "217" }
+          { "id": 22, "name": "BN01", "color": "green" },
+          { "id": 22, "name": "BN08", "color": "green" },
+          { "id": 93, "name": "217", "color": "red" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.067771, 21.159192]
+      },
+      "properties": {
+        "name": "Cầu Bồ Sơn",
+        "description": "",
+        "address": "",
+        "district": "Thành phố Bắc Ninh",
+        "routers": [
+          { "id": 23, "name": "BN01", "color": "red" },
+          { "id": 23, "name": "BN08", "color": "red" },
+          { "id": 92, "name": "217", "color": "green" }
         ]
       }
     },
@@ -436,9 +454,9 @@ export let stations = {
         "address": "Đối diện 930 Nguyễn Trãi",
         "district": "Thành phố Bắc Ninh",
         "routers": [
-          { "id": 23, "name": "BN01", "color": "red" },
-          { "id": 23, "name": "BN08", "color": "red" },
-          { "id": 92, "name": "217", "color": "green" }
+          { "id": 24, "name": "BN01", "color": "red" },
+          { "id": 24, "name": "BN08", "color": "red" },
+          { "id": 91, "name": "217", "color": "green" }
         ]
       }
     },
@@ -454,9 +472,9 @@ export let stations = {
         "address": "Đường Nguyễn Trãi",
         "district": "Thành phố Bắc Ninh",
         "routers": [
-          { "id": 24, "name": "BN01", "color": "green" },
-          { "id": 24, "name": "BN08", "color": "green" },
-          { "id": 91, "name": "217", "color": "red" }
+          { "id": 25, "name": "BN01", "color": "green" },
+          { "id": 25, "name": "BN08", "color": "green" },
+          { "id": 90, "name": "217", "color": "red" }
         ]
       }
     },
@@ -472,9 +490,9 @@ export let stations = {
         "address": "Đường Nguyễn Trãi",
         "district": "Thành phố Bắc Ninh",
         "routers": [
-          { "id": 25, "name": "BN01", "color": "red" },
-          { "id": 25, "name": "BN08", "color": "red" },
-          { "id": 90, "name": "217", "color": "green" }
+          { "id": 26, "name": "BN01", "color": "red" },
+          { "id": 26, "name": "BN08", "color": "red" },
+          { "id": 89, "name": "217", "color": "green" }
         ]
       }
     },
@@ -490,9 +508,9 @@ export let stations = {
         "address": "Đường Nguyễn Trãi",
         "district": "Thành phố Bắc Ninh",
         "routers": [
-          { "id": 26, "name": "BN01", "color": "green" },
-          { "id": 26, "name": "BN08", "color": "green" },
-          { "id": 89, "name": "217", "color": "red" }
+          { "id": 27, "name": "BN01", "color": "green" },
+          { "id": 27, "name": "BN08", "color": "green" },
+          { "id": 88, "name": "217", "color": "red" }
         ]
       }
     },
@@ -508,9 +526,9 @@ export let stations = {
         "address": "Đường Nguyễn Trãi",
         "district": "Thành phố Bắc Ninh",
         "routers": [
-          { "id": 27, "name": "BN01", "color": "red" },
-          { "id": 27, "name": "BN08", "color": "red" },
-          { "id": 88, "name": "217", "color": "green" }
+          { "id": 28, "name": "BN01", "color": "red" },
+          { "id": 28, "name": "BN08", "color": "red" },
+          { "id": 87, "name": "217", "color": "green" }
         ]
       }
     },
@@ -526,9 +544,9 @@ export let stations = {
         "address": "1346-1348 Nguyễn Trãi",
         "district": "Thành phố Bắc Ninh",
         "routers": [
-          { "id": 28, "name": "BN01", "color": "green" },
-          { "id": 28, "name": "BN08", "color": "green" },
-          { "id": 87, "name": "217", "color": "red" }
+          { "id": 29, "name": "BN01", "color": "green" },
+          { "id": 29, "name": "BN08", "color": "green" },
+          { "id": 86, "name": "217", "color": "red" }
         ]
       }
     },
@@ -544,9 +562,9 @@ export let stations = {
         "address": "1466-1468 Nguyễn Trãi",
         "district": "Thành phố Bắc Ninh",
         "routers": [
-          { "id": 29, "name": "BN01", "color": "green" },
-          { "id": 29, "name": "BN08", "color": "green" },
-          { "id": 86, "name": "217", "color": "red" }
+          { "id": 30, "name": "BN01", "color": "green" },
+          { "id": 30, "name": "BN08", "color": "green" },
+          { "id": 85, "name": "217", "color": "red" }
         ]
       }
     },
@@ -562,9 +580,9 @@ export let stations = {
         "address": "1017-1019 Nguyễn Trãi",
         "district": "Thành phố Bắc Ninh",
         "routers": [
-          { "id": 30, "name": "BN01", "color": "red" },
-          { "id": 30, "name": "BN08", "color": "red" },
-          { "id": 85, "name": "217", "color": "green" }
+          { "id": 31, "name": "BN01", "color": "red" },
+          { "id": 31, "name": "BN08", "color": "red" },
+          { "id": 84, "name": "217", "color": "green" }
         ]
       }
     },
@@ -580,9 +598,9 @@ export let stations = {
         "address": "Đường Nguyễn Trãi",
         "district": "Thành phố Bắc Ninh",
         "routers": [
-          { "id": 31, "name": "BN01", "color": "green" },
-          { "id": 31, "name": "BN08", "color": "green" },
-          { "id": 84, "name": "217", "color": "red" }
+          { "id": 32, "name": "BN01", "color": "green" },
+          { "id": 32, "name": "BN08", "color": "green" },
+          { "id": 83, "name": "217", "color": "red" }
         ]
       }
     },
@@ -598,9 +616,9 @@ export let stations = {
         "address": "1147-1149 Nguyễn Trãi",
         "district": "Thành phố Bắc Ninh",
         "routers": [
-          { "id": 32, "name": "BN01", "color": "red" },
-          { "id": 32, "name": "BN08", "color": "red" },
-          { "id": 83, "name": "217", "color": "green" }
+          { "id": 33, "name": "BN01", "color": "red" },
+          { "id": 33, "name": "BN08", "color": "red" },
+          { "id": 82, "name": "217", "color": "green" }
         ]
       }
     },
@@ -617,9 +635,9 @@ export let stations = {
         "ward": "Lạc Vệ",
         "district": "Tiên Du",
         "routers": [
-          { "id": 33, "name": "BN01" },
-          { "id": 33, "name": "BN08" },
-          { "id": 82, "name": "217" }
+          { "id": 34, "name": "BN01" },
+          { "id": 34, "name": "BN08" },
+          { "id": 81, "name": "217" }
         ]
       }
     },
@@ -636,9 +654,9 @@ export let stations = {
         "ward": "Lạc Vệ",
         "district": "Tiên Du",
         "routers": [
-          { "id": 34, "name": "BN01" },
-          { "id": 34, "name": "BN08" },
-          { "id": 81, "name": "217" }
+          { "id": 35, "name": "BN01" },
+          { "id": 35, "name": "BN08" },
+          { "id": 80, "name": "217" }
         ]
       }
     },
@@ -655,9 +673,9 @@ export let stations = {
         "ward": "Tân Chi",
         "district": "Tiên Du",
         "routers": [
-          { "id": 35, "name": "BN01" },
-          { "id": 35, "name": "BN08" },
-          { "id": 80, "name": "217" }
+          { "id": 36, "name": "BN01" },
+          { "id": 36, "name": "BN08" },
+          { "id": 79, "name": "217" }
         ]
       }
     },
@@ -674,9 +692,9 @@ export let stations = {
         "ward": "Tư Chi, Tân Chi",
         "district": "Tiên Du",
         "routers": [
-          { "id": 36, "name": "BN01" },
-          { "id": 36, "name": "BN08" },
-          { "id": 79, "name": "217" }
+          { "id": 37, "name": "BN01" },
+          { "id": 37, "name": "BN08" },
+          { "id": 78, "name": "217" }
         ]
       }
     },
@@ -693,7 +711,7 @@ export let stations = {
         "ward": "Tân Chi",
         "district": "Tiên Du",
         "routers": [
-          { "id": 37, "name": "BN01" }
+          { "id": 38, "name": "BN01" }
         ]
       }
     },
@@ -710,7 +728,7 @@ export let stations = {
         "ward": "Tân Chi",
         "district": "Tiên Du",
         "routers": [
-          { "id": 38, "name": "BN01" }
+          { "id": 39, "name": "BN01" }
         ]
       }
     },
@@ -727,7 +745,7 @@ export let stations = {
         "ward": "Tân Chi",
         "district": "Tiên Du",
         "routers": [
-          { "id": 39, "name": "BN01" }
+          { "id": 40, "name": "BN01" }
         ]
       }
     },
@@ -743,8 +761,8 @@ export let stations = {
         "address": "Đường Kinh Dương Vương",
         "district": "Thị xã Thuận Thành",
         "routers": [
-          { "id": 40, "name": "BN01" },
-          { "id": 75, "name": "217" }
+          { "id": 41, "name": "BN01" },
+          { "id": 74, "name": "217" }
         ]
       }
     },
@@ -760,7 +778,7 @@ export let stations = {
         "address": "Đường Vương Văn Trà",
         "district": "Thị xã Thuận Thành",
         "routers": [
-          { "id": 41, "name": "BN01", "color": "green" },
+          { "id": 42, "name": "BN01", "color": "green" },
           { "id": 37, "name": "BN27", "color": "green" }
         ]
       }
@@ -777,7 +795,7 @@ export let stations = {
         "address": "Đường Vương Văn Trà",
         "district": "Thị xã Thuận Thành",
         "routers": [
-          { "id": 42, "name": "BN01", "color": "red" },
+          { "id": 43, "name": "BN01", "color": "red" },
           { "id": 38, "name": "BN27", "color": "red" }
         ]
       }
@@ -794,7 +812,7 @@ export let stations = {
         "address": "213 Âu Cơ",
         "district": "Thị xã Thuận Thành",
         "routers": [
-          { "id": 43, "name": "BN01" },
+          { "id": 44, "name": "BN01" },
           { "id": 39, "name": "BN27" },
           { "id": 77, "name": "204" }
         ]
@@ -812,7 +830,7 @@ export let stations = {
         "address": "474 Âu Cơ",
         "district": "Thị xã Thuận Thành",
         "routers": [
-          { "id": 44, "name": "BN01" },
+          { "id": 45, "name": "BN01" },
           { "id": 40, "name": "BN27" },
           { "id": 76, "name": "204" }
         ]
@@ -830,7 +848,7 @@ export let stations = {
         "address": "614 Âu Cơ",
         "district": "Thị xã Thuận Thành",
         "routers": [
-          { "id": 45, "name": "BN01" },
+          { "id": 46, "name": "BN01" },
           { "id": 41, "name": "BN27" },
           { "id": 75, "name": "204" }
         ]
@@ -848,7 +866,7 @@ export let stations = {
         "address": "1055-1057 Âu Cơ",
         "district": "Thị xã Thuận Thành",
         "routers": [
-          { "id": 46, "name": "BN01", "color": "red" },
+          { "id": 47, "name": "BN01", "color": "red" },
           { "id": 42, "name": "BN27", "color": "red" },
           { "id": 74, "name": "204", "color": "red" }
         ]
@@ -866,7 +884,7 @@ export let stations = {
         "address": "Quốc lộ 17",
         "district": "Thị xã Thuận Thành",
         "routers": [
-          { "id": 47, "name": "BN01" },
+          { "id": 48, "name": "BN01" },
           { "id": 36, "name": "BN27" }
         ]
       }
@@ -884,7 +902,7 @@ export let stations = {
         "ward": "An Bình",
         "district": "Thị xã Thuận Thành",
         "routers": [
-          { "id": 48, "name": "BN01" },
+          { "id": 49, "name": "BN01" },
           { "id": 35, "name": "BN27" }
         ]
       }
@@ -902,7 +920,7 @@ export let stations = {
         "ward": "An Bình",
         "district": "Thị xã Thuận Thành",
         "routers": [
-          { "id": 49, "name": "BN01" },
+          { "id": 50, "name": "BN01" },
           { "id": 34, "name": "BN27" }
         ]
       }
@@ -920,7 +938,7 @@ export let stations = {
         "ward": "Đại Bái",
         "district": "Gia Bình",
         "routers": [
-          { "id": 50, "name": "BN01" },
+          { "id": 51, "name": "BN01" },
           { "id": 33, "name": "BN27" }
         ]
       }
@@ -938,7 +956,7 @@ export let stations = {
         "ward": "Đại Bái",
         "district": "Gia Bình",
         "routers": [
-          { "id": 51, "name": "BN01" }
+          { "id": 52, "name": "BN01" }
         ]
       }
     },
@@ -955,7 +973,7 @@ export let stations = {
         "ward": "Thị trấn Gia Bình",
         "district": "Gia Bình",
         "routers": [
-          { "id": 52, "name": "BN01", "color": "green" }
+          { "id": 53, "name": "BN01", "color": "green" }
         ]
       }
     },
@@ -972,7 +990,7 @@ export let stations = {
         "ward": "Thị trấn Gia Bình",
         "district": "Gia Bình",
         "routers": [
-          { "id": 53, "name": "BN01", "color": "red" }
+          { "id": 54, "name": "BN01", "color": "red" }
         ]
       }
     },
@@ -989,7 +1007,7 @@ export let stations = {
         "ward": "Thị trấn Gia Bình",
         "district": "Gia Bình",
         "routers": [
-          { "id": 54, "name": "BN01", "color": "green" }
+          { "id": 55, "name": "BN01", "color": "green" }
         ]
       }
     },
@@ -1006,7 +1024,7 @@ export let stations = {
         "ward": "Thị trấn Gia Bình",
         "district": "Gia Bình",
         "routers": [
-          { "id": 55, "name": "BN01", "color": "red" }
+          { "id": 56, "name": "BN01", "color": "red" }
         ]
       }
     },
@@ -1023,7 +1041,7 @@ export let stations = {
         "ward": "Thị trấn Gia Bình",
         "district": "Gia Bình",
         "routers": [
-          { "id": 56, "name": "BN01", "color": "green" }
+          { "id": 57, "name": "BN01", "color": "green" }
         ]
       }
     },
@@ -1040,7 +1058,7 @@ export let stations = {
         "ward": "Thị trấn Gia Bình",
         "district": "Gia Bình",
         "routers": [
-          { "id": 57, "name": "BN01", "color": "red" }
+          { "id": 58, "name": "BN01", "color": "red" }
         ]
       }
     },
@@ -1057,7 +1075,7 @@ export let stations = {
         "ward": "Thị trấn Gia Bình",
         "district": "Gia Bình",
         "routers": [
-          { "id": 58, "name": "BN01", "color": "green" }
+          { "id": 59, "name": "BN01", "color": "green" }
         ]
       }
     },
@@ -1074,7 +1092,7 @@ export let stations = {
         "ward": "Thị trấn Gia Bình",
         "district": "Gia Bình",
         "routers": [
-          { "id": 59, "name": "BN01", "color": "red" }
+          { "id": 60, "name": "BN01", "color": "red" }
         ]
       }
     },
@@ -1091,7 +1109,7 @@ export let stations = {
         "ward": "Thị trấn Gia Bình",
         "district": "Gia Bình",
         "routers": [
-          { "id": 60, "name": "BN01" }
+          { "id": 61, "name": "BN01" }
         ]
       }
     },
@@ -1108,7 +1126,7 @@ export let stations = {
         "ward": "Quỳnh Phú",
         "district": "Gia Bình",
         "routers": [
-          { "id": 61, "name": "BN01" }
+          { "id": 62, "name": "BN01" }
         ]
       }
     },
@@ -1125,7 +1143,7 @@ export let stations = {
         "ward": "Quỳnh Phú",
         "district": "Gia Bình",
         "routers": [
-          { "id": 62, "name": "BN01" }
+          { "id": 63, "name": "BN01" }
         ]
       }
     },
@@ -1142,7 +1160,7 @@ export let stations = {
         "ward": "Tân Lãng",
         "district": "Lương Tài",
         "routers": [
-          { "id": 63, "name": "BN01", "color": "green" }
+          { "id": 64, "name": "BN01", "color": "green" }
         ]
       }
     },
@@ -1159,7 +1177,7 @@ export let stations = {
         "ward": "Tân Lãng",
         "district": "Lương Tài",
         "routers": [
-          { "id": 64, "name": "BN01", "color": "red" }
+          { "id": 65, "name": "BN01", "color": "red" }
         ]
       }
     },
@@ -1176,7 +1194,7 @@ export let stations = {
         "ward": "Thị trấn Thứa",
         "district": "Lương Tài",
         "routers": [
-          { "id": 65, "name": "BN01" }
+          { "id": 66, "name": "BN01" }
         ]
       }
     },
@@ -1193,7 +1211,7 @@ export let stations = {
         "ward": "Thị trấn Thứa",
         "district": "Lương Tài",
         "routers": [
-          { "id": 66, "name": "BN01" }
+          { "id": 67, "name": "BN01" }
         ]
       }
     },
@@ -1211,7 +1229,7 @@ export let stations = {
         "ward": "Thị trấn Thứa",
         "district": "Lương Tài",
         "routers": [
-          { "id": 67, "name": "BN01", "start": true }
+          { "id": 68, "name": "BN01", "start": true }
         ]
       }
     },
@@ -2366,8 +2384,8 @@ export let stations = {
         "ward": "Tân Chi",
         "district": "Tiên Du",
         "routers": [
-          { "id": 38, "name": "BN08", "color": "green" },
-          { "id": 77, "name": "217", "color": "red" }
+          { "id": 39, "name": "BN08", "color": "green" },
+          { "id": 76, "name": "217", "color": "red" }
         ]
       }
     },
@@ -2384,8 +2402,8 @@ export let stations = {
         "ward": "Tân Chi",
         "district": "Tiên Du",
         "routers": [
-          { "id": 39, "name": "BN08", "color": "red" },
-          { "id": 76, "name": "217", "color": "green" }
+          { "id": 40, "name": "BN08", "color": "red" },
+          { "id": 75, "name": "217", "color": "green" }
         ]
       },
       "color": "red",
@@ -2404,7 +2422,7 @@ export let stations = {
         "ward": "Hoài Thượng",
         "district": "Thị xã Thuận Thành",
         "routers": [
-          { "id": 40, "name": "BN08" }
+          { "id": 41, "name": "BN08" }
         ]
       }
     },
@@ -2421,7 +2439,7 @@ export let stations = {
         "ward": "Hoài Thượng",
         "district": "Thị xã Thuận Thành",
         "routers": [
-          { "id": 41, "name": "BN08" }
+          { "id": 42, "name": "BN08" }
         ]
       }
     },
@@ -2438,7 +2456,7 @@ export let stations = {
         "ward": "Hoài Thượng",
         "district": "Thị xã Thuận Thành",
         "routers": [
-          { "id": 42, "name": "BN08" }
+          { "id": 43, "name": "BN08" }
         ]
       }
     },
@@ -2455,7 +2473,7 @@ export let stations = {
         "ward": "Mão Điền",
         "district": "Thị xã Thuận Thành",
         "routers": [
-          { "id": 43, "name": "BN08" }
+          { "id": 44, "name": "BN08" }
         ]
       }
     },
@@ -2472,7 +2490,7 @@ export let stations = {
         "ward": "Lãng Ngâm",
         "district": "Gia Bình",
         "routers": [
-          { "id": 44, "name": "BN08" }
+          { "id": 45, "name": "BN08" }
         ]
       }
     },
@@ -2489,7 +2507,7 @@ export let stations = {
         "ward": "Lãng Ngâm",
         "district": "Gia Bình",
         "routers": [
-          { "id": 45, "name": "BN08" }
+          { "id": 46, "name": "BN08" }
         ]
       }
     },
@@ -2506,7 +2524,7 @@ export let stations = {
         "ward": "Lãng Ngâm",
         "district": "Gia Bình",
         "routers": [
-          { "id": 46, "name": "BN08" }
+          { "id": 47, "name": "BN08" }
         ]
       }
     },
@@ -2523,7 +2541,7 @@ export let stations = {
         "ward": "Lãng Ngâm",
         "district": "Gia Bình",
         "routers": [
-          { "id": 47, "name": "BN08" }
+          { "id": 48, "name": "BN08" }
         ]
       }
     },
@@ -2540,7 +2558,7 @@ export let stations = {
         "ward": "Lãng Ngâm",
         "district": "Gia Bình",
         "routers": [
-          { "id": 48, "name": "BN08" }
+          { "id": 49, "name": "BN08" }
         ]
       }
     },
@@ -2557,7 +2575,7 @@ export let stations = {
         "ward": "Đông Cứu",
         "district": "Gia Bình",
         "routers": [
-          { "id": 49, "name": "BN08" }
+          { "id": 50, "name": "BN08" }
         ]
       }
     },
@@ -2574,7 +2592,7 @@ export let stations = {
         "ward": "Đông Cứu",
         "district": "Gia Bình",
         "routers": [
-          { "id": 50, "name": "BN08" }
+          { "id": 51, "name": "BN08" }
         ]
       }
     },
@@ -2591,7 +2609,7 @@ export let stations = {
         "ward": "Đông Cứu",
         "district": "Gia Bình",
         "routers": [
-          { "id": 51, "name": "BN08" }
+          { "id": 52, "name": "BN08" }
         ]
       }
     },
@@ -2608,7 +2626,7 @@ export let stations = {
         "ward": "Đông Cứu",
         "district": "Gia Bình",
         "routers": [
-          { "id": 52, "name": "BN08" }
+          { "id": 53, "name": "BN08" }
         ]
       }
     },
@@ -2625,7 +2643,7 @@ export let stations = {
         "ward": "Thị trấn Gia Bình",
         "district": "Gia Bình",
         "routers": [
-          { "id": 53, "name": "BN08", "color": "green" }
+          { "id": 54, "name": "BN08", "color": "green" }
         ]
       }
     },
@@ -2642,7 +2660,7 @@ export let stations = {
         "ward": "Thị trấn Gia Bình",
         "district": "Gia Bình",
         "routers": [
-          { "id": 54, "name": "BN08", "color": "red" }
+          { "id": 55, "name": "BN08", "color": "red" }
         ]
       }
     },
@@ -2659,7 +2677,7 @@ export let stations = {
         "ward": "Thị trấn Gia Bình",
         "district": "Gia Bình",
         "routers": [
-          { "id": 55, "name": "BN08" }
+          { "id": 56, "name": "BN08" }
         ]
       }
     },
@@ -2676,7 +2694,7 @@ export let stations = {
         "ward": "Thị trấn Gia Bình",
         "district": "Gia Bình",
         "routers": [
-          { "id": 56, "name": "BN08" }
+          { "id": 57, "name": "BN08" }
         ]
       }
     },
@@ -2693,7 +2711,7 @@ export let stations = {
         "ward": "Thị trấn Gia Bình",
         "district": "Gia Bình",
         "routers": [
-          { "id": 57, "name": "BN08", "color": "green" }
+          { "id": 58, "name": "BN08", "color": "green" }
         ]
       }
     },
@@ -2710,7 +2728,7 @@ export let stations = {
         "ward": "Thị trấn Gia Bình",
         "district": "Gia Bình",
         "routers": [
-          { "id": 58, "name": "BN08", "color": "red" }
+          { "id": 59, "name": "BN08", "color": "red" }
         ]
       }
     },
@@ -2727,7 +2745,7 @@ export let stations = {
         "ward": "Thị trấn Gia Bình",
         "district": "Gia Bình",
         "routers": [
-          { "id": 59, "name": "BN08", "color": "green" }
+          { "id": 60, "name": "BN08", "color": "green" }
         ]
       }
     },
@@ -2744,7 +2762,7 @@ export let stations = {
         "ward": "Thị trấn Gia Bình",
         "district": "Gia Bình",
         "routers": [
-          { "id": 60, "name": "BN08", "color": "red" }
+          { "id": 61, "name": "BN08", "color": "red" }
         ]
       }
     },
@@ -2761,7 +2779,7 @@ export let stations = {
         "ward": "Xuân Lai",
         "district": "Gia Bình",
         "routers": [
-          { "id": 61, "name": "BN08" }
+          { "id": 62, "name": "BN08" }
         ]
       }
     },
@@ -2778,7 +2796,7 @@ export let stations = {
         "ward": "Xuân Lai",
         "district": "Gia Bình",
         "routers": [
-          { "id": 62, "name": "BN08" }
+          { "id": 63, "name": "BN08" }
         ]
       }
     },
@@ -2795,7 +2813,7 @@ export let stations = {
         "ward": "Thị trấn Nhân Thắng",
         "district": "Gia Bình",
         "routers": [
-          { "id": 63, "name": "BN08" }
+          { "id": 64, "name": "BN08" }
         ]
       }
     },
@@ -2812,7 +2830,7 @@ export let stations = {
         "ward": "Thị trấn Nhân Thắng",
         "district": "Gia Bình",
         "routers": [
-          { "id": 64, "name": "BN08" }
+          { "id": 65, "name": "BN08" }
         ]
       }
     },
@@ -2829,8 +2847,8 @@ export let stations = {
         "ward": "Thị trấn Nhân Thắng",
         "district": "Gia Bình",
         "routers": [
-          { "id": 65, "name": "BN08" },
-          { "id": 40, "name": "BN86A" }
+          { "id": 66, "name": "BN08" },
+          { "id": 41, "name": "BN86A" }
         ]
       }
     },
@@ -2847,9 +2865,9 @@ export let stations = {
         "ward": "Thị trấn Nhân Thắng",
         "district": "Gia Bình",
         "routers": [
-          { "id": 66, "name": "BN08" },
-          { "id": 39, "name": "BN86A" },
-          { "id": 39, "name": "BN86B" }
+          { "id": 67, "name": "BN08" },
+          { "id": 40, "name": "BN86A" },
+          { "id": 40, "name": "BN86B" }
         ]
       }
     },
@@ -2866,9 +2884,9 @@ export let stations = {
         "ward": "Thị trấn Nhân Thắng",
         "district": "Gia Bình",
         "routers": [
-          { "id": 67, "name": "BN08" },
-          { "id": 38, "name": "BN86A" },
-          { "id": 38, "name": "BN86B" }
+          { "id": 68, "name": "BN08" },
+          { "id": 39, "name": "BN86A" },
+          { "id": 39, "name": "BN86B" }
         ]
       }
     },
@@ -2885,9 +2903,9 @@ export let stations = {
         "ward": "Thị trấn Nhân Thắng",
         "district": "Gia Bình",
         "routers": [
-          { "id": 68, "name": "BN08" },
-          { "id": 37, "name": "BN86A" },
-          { "id": 37, "name": "BN86B" }
+          { "id": 69, "name": "BN08" },
+          { "id": 38, "name": "BN86A" },
+          { "id": 38, "name": "BN86B" }
         ]
       }
     },
@@ -2904,12 +2922,31 @@ export let stations = {
         "ward": "Thị trấn Nhân Thắng",
         "district": "Gia Bình",
         "routers": [
-          { "id": 69, "name": "BN08" },
-          { "id": 36, "name": "BN86A" },
-          { "id": 36, "name": "BN86B" }
+          { "id": 70, "name": "BN08" },
+          { "id": 37, "name": "BN86A" },
+          { "id": 37, "name": "BN86B" }
         ]
       }
     },
+    // {
+    //   "type": "Feature",
+    //   "geometry": {
+    //     "type": "Point",
+    //     "coordinates": [106.247640, 21.075895] ???
+    //   },
+    //   "properties": {
+    //     "name": "Giữa Thôn Đìa",
+    //     "description": "",
+    //     "address": "Quốc lộ 17",
+    //     "ward": "Bình Dương",
+    //     "district": "Gia Bình",
+    //     "routers": [
+    //       { "id": 71, "name": "BN08" },
+    //       { "id": 36, "name": "BN86A" },
+    //       { "id": 36, "name": "BN86B" }
+    //     ]
+    //   }
+    // },
     {
       "type": "Feature",
       "geometry": {
@@ -2917,13 +2954,13 @@ export let stations = {
         "coordinates": [106.247640, 21.075895]
       },
       "properties": {
-        "name": "Thôn Đìa",
+        "name": "Nhà văn hóa Thôn Đìa",
         "description": "",
         "address": "Quốc lộ 17",
         "ward": "Bình Dương",
         "district": "Gia Bình",
         "routers": [
-          { "id": 70, "name": "BN08" },
+          { "id": 72, "name": "BN08" },
           { "id": 35, "name": "BN86A" },
           { "id": 35, "name": "BN86B" }
         ]
@@ -2942,7 +2979,7 @@ export let stations = {
         "ward": "Bình Dương",
         "district": "Gia Bình",
         "routers": [
-          { "id": 71, "name": "BN08" },
+          { "id": 73, "name": "BN08" },
           { "id": 34, "name": "BN86A" },
           { "id": 34, "name": "BN86B" }
         ]
@@ -2961,7 +2998,7 @@ export let stations = {
         "ward": "Bình Dương",
         "district": "Gia Bình",
         "routers": [
-          { "id": 72, "name": "BN08" },
+          { "id": 74, "name": "BN08" },
           { "id": 33, "name": "BN86A" },
           { "id": 33, "name": "BN86B" }
         ]
@@ -2980,7 +3017,7 @@ export let stations = {
         "ward": "Vạn Ninh",
         "district": "Gia Bình",
         "routers": [
-          { "id": 73, "name": "BN08" }
+          { "id": 75, "name": "BN08" }
         ]
       }
     },
@@ -2997,7 +3034,7 @@ export let stations = {
         "ward": "Cao Đức",
         "district": "Gia Bình",
         "routers": [
-          { "id": 74, "name": "BN08" }
+          { "id": 76, "name": "BN08" }
         ]
       }
     },
@@ -3014,7 +3051,7 @@ export let stations = {
         "ward": "Cao Đức",
         "district": "Gia Bình",
         "routers": [
-          { "id": 75, "name": "BN08" }
+          { "id": 77, "name": "BN08" }
         ]
       }
     },
@@ -3031,7 +3068,7 @@ export let stations = {
         "ward": "Cao Đức",
         "district": "Gia Bình",
         "routers": [
-          { "id": 76, "name": "BN08" }
+          { "id": 78, "name": "BN08" }
         ]
       }
     },
@@ -3048,7 +3085,7 @@ export let stations = {
         "ward": "Cao Đức",
         "district": "Gia Bình",
         "routers": [
-          { "id": 77, "name": "BN08" }
+          { "id": 79, "name": "BN08" }
         ]
       }
     },
@@ -3065,7 +3102,7 @@ export let stations = {
         "ward": "Cao Đức",
         "district": "Gia Bình",
         "routers": [
-          { "id": 78, "name": "BN08" }
+          { "id": 80, "name": "BN08" }
         ]
       }
     },
@@ -3082,7 +3119,7 @@ export let stations = {
         "ward": "Cao Đức",
         "district": "Gia Bình",
         "routers": [
-          { "id": 79, "name": "BN08" }
+          { "id": 81, "name": "BN08" }
         ]
       }
     },
@@ -3099,7 +3136,7 @@ export let stations = {
         "ward": "An Thịnh",
         "district": "Lương Tài",
         "routers": [
-          { "id": 80, "name": "BN08" }
+          { "id": 82, "name": "BN08" }
         ]
       }
     },
@@ -3116,7 +3153,7 @@ export let stations = {
         "ward": "An Thịnh",
         "district": "Lương Tài",
         "routers": [
-          { "id": 81, "name": "BN08" }
+          { "id": 83, "name": "BN08" }
         ]
       }
     },
@@ -3133,7 +3170,7 @@ export let stations = {
         "ward": "Trung Kênh",
         "district": "Lương Tài",
         "routers": [
-          { "id": 82, "name": "BN08" }
+          { "id": 84, "name": "BN08" }
         ]
       }
     },
@@ -3150,7 +3187,7 @@ export let stations = {
         "ward": "Trung Kênh",
         "district": "Lương Tài",
         "routers": [
-          { "id": 83, "name": "BN08" }
+          { "id": 85, "name": "BN08" }
         ]
       }
     },
@@ -3167,7 +3204,7 @@ export let stations = {
         "ward": "Trung Kênh",
         "district": "Lương Tài",
         "routers": [
-          { "id": 84, "name": "BN08" }
+          { "id": 86, "name": "BN08" }
         ]
       }
     },
@@ -3185,7 +3222,7 @@ export let stations = {
         "ward": "Trung Kênh",
         "district": "Lương Tài",
         "routers": [
-          { "id": 85, "name": "BN08", "start": true },
+          { "id": 87, "name": "BN08", "start": true },
           { "id": 1, "name": "BN27", "start": true }
         ]
       }
@@ -5523,7 +5560,7 @@ export let stations = {
         "ward": "Phú Hòa",
         "district": "Lương Tài",
         "routers": [
-          { "id": 41, "name": "BN86A" }
+          { "id": 42, "name": "BN86A" }
         ]
       }
     },
@@ -5540,7 +5577,7 @@ export let stations = {
         "ward": "Phú Hòa",
         "district": "Lương Tài",
         "routers": [
-          { "id": 42, "name": "BN86A" }
+          { "id": 43, "name": "BN86A" }
         ]
       }
     },
@@ -5557,7 +5594,7 @@ export let stations = {
         "ward": "Phú Hòa",
         "district": "Lương Tài",
         "routers": [
-          { "id": 43, "name": "BN86A" }
+          { "id": 44, "name": "BN86A" }
         ]
       }
     },
@@ -5574,7 +5611,7 @@ export let stations = {
         "ward": "Phú Hòa",
         "district": "Lương Tài",
         "routers": [
-          { "id": 44, "name": "BN86A" }
+          { "id": 45, "name": "BN86A" }
         ]
       }
     },
@@ -5591,7 +5628,7 @@ export let stations = {
         "ward": "Trung Chính",
         "district": "Lương Tài",
         "routers": [
-          { "id": 45, "name": "BN86A" }
+          { "id": 46, "name": "BN86A" }
         ]
       }
     },
@@ -5608,7 +5645,7 @@ export let stations = {
         "ward": "Trung Chính",
         "district": "Lương Tài",
         "routers": [
-          { "id": 46, "name": "BN86A" }
+          { "id": 47, "name": "BN86A" }
         ]
       }
     },
@@ -5625,7 +5662,7 @@ export let stations = {
         "ward": "Trừng Xá",
         "district": "Lương Tài",
         "routers": [
-          { "id": 47, "name": "BN86A" }
+          { "id": 48, "name": "BN86A" }
         ]
       }
     },
@@ -5642,7 +5679,7 @@ export let stations = {
         "ward": "Trừng Xá",
         "district": "Lương Tài",
         "routers": [
-          { "id": 48, "name": "BN86A" }
+          { "id": 49, "name": "BN86A" }
         ]
       }
     },
@@ -5659,7 +5696,7 @@ export let stations = {
         "ward": "Mỹ Hương",
         "district": "Lương Tài",
         "routers": [
-          { "id": 49, "name": "BN86A" }
+          { "id": 50, "name": "BN86A" }
         ]
       }
     },
@@ -5676,7 +5713,7 @@ export let stations = {
         "ward": "Lai Hạ",
         "district": "Lương Tài",
         "routers": [
-          { "id": 50, "name": "BN86A" }
+          { "id": 51, "name": "BN86A" }
         ]
       }
     },
@@ -5693,7 +5730,7 @@ export let stations = {
         "ward": "Lai Hạ",
         "district": "Lương Tài",
         "routers": [
-          { "id": 51, "name": "BN86A" }
+          { "id": 52, "name": "BN86A" }
         ]
       }
     },
@@ -5710,7 +5747,7 @@ export let stations = {
         "ward": "Minh Tân",
         "district": "Lương Tài",
         "routers": [
-          { "id": 52, "name": "BN86A" }
+          { "id": 53, "name": "BN86A" }
         ]
       }
     },
@@ -5727,7 +5764,7 @@ export let stations = {
         "ward": "Minh Tân",
         "district": "Lương Tài",
         "routers": [
-          { "id": 53, "name": "BN86A" }
+          { "id": 54, "name": "BN86A" }
         ]
       }
     },
@@ -5745,7 +5782,7 @@ export let stations = {
         "ward": "Minh Tân",
         "district": "Lương Tài",
         "routers": [
-          { "id": 54, "name": "BN86A", "start": true }
+          { "id": 55, "name": "BN86A", "start": true }
         ]
       }
     },
@@ -5763,7 +5800,7 @@ export let stations = {
         "ward": "Thị trấn Nhân Thắng",
         "district": "Gia Bình",
         "routers": [
-          { "id": 40, "name": "BN86B" }
+          { "id": 41, "name": "BN86B" }
         ]
       }
     },
@@ -5780,7 +5817,7 @@ export let stations = {
         "ward": "Thị trấn Nhân Thắng",
         "district": "Gia Bình",
         "routers": [
-          { "id": 41, "name": "BN86B" }
+          { "id": 42, "name": "BN86B" }
         ]
       }
     },
@@ -5797,7 +5834,7 @@ export let stations = {
         "ward": "Thị trấn Nhân Thắng",
         "district": "Gia Bình",
         "routers": [
-          { "id": 42, "name": "BN86B" }
+          { "id": 43, "name": "BN86B" }
         ]
       }
     },
@@ -5814,7 +5851,7 @@ export let stations = {
         "ward": "Thái Bảo",
         "district": "Gia Bình",
         "routers": [
-          { "id": 43, "name": "BN86B" }
+          { "id": 44, "name": "BN86B" }
         ]
       }
     },
@@ -5831,7 +5868,7 @@ export let stations = {
         "ward": "Đại Lai",
         "district": "Gia Bình",
         "routers": [
-          { "id": 44, "name": "BN86B" }
+          { "id": 45, "name": "BN86B" }
         ]
       }
     },
@@ -5848,7 +5885,7 @@ export let stations = {
         "ward": "Đại Lai",
         "district": "Gia Bình",
         "routers": [
-          { "id": 45, "name": "BN86B" }
+          { "id": 46, "name": "BN86B" }
         ]
       }
     },
@@ -5865,7 +5902,7 @@ export let stations = {
         "ward": "Đại Lai",
         "district": "Gia Bình",
         "routers": [
-          { "id": 46, "name": "BN86B" }
+          { "id": 47, "name": "BN86B" }
         ]
       }
     },
@@ -5882,7 +5919,7 @@ export let stations = {
         "ward": "Đại Lai",
         "district": "Gia Bình",
         "routers": [
-          { "id": 47, "name": "BN86B" }
+          { "id": 48, "name": "BN86B" }
         ]
       }
     },
@@ -5900,7 +5937,7 @@ export let stations = {
         "ward": "Đại Lai",
         "district": "Gia Bình",
         "routers": [
-          { "id": 48, "name": "BN86B", "start": true }
+          { "id": 49, "name": "BN86B", "start": true }
         ]
       }
     },
@@ -5910,18 +5947,457 @@ export let stations = {
       "geometry": {
         "pointId": 11,
         "type": "Point Out Province",
-        "coordinates": [105.849453, 21.041309]
+        "coordinates": [105.849463, 21.041309]
       },
       "properties": {
         "name": "Long Biên",
         "description": "Điểm trung chuyển Long Biên",
-        "address": "",
-        "ward": "",
-        "district": "Hà Nội",
+        "address": "Đường Yên Phụ",
+        "district": "Ba Đình, Hà Nội",
         "routers": [
           { "id": 1, "name": "10A", "start": true },
           { "id": 1, "name": "54", "start": true },
           { "id": 1, "name": "204", "start": true }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.852789, 21.037579]
+      },
+      "properties": {
+        "name": "Ô Quan Trưởng",
+        "description": "",
+        "address": "80 Trần Nhật Duật",
+        "district": "Hoàn Kiếm, Hà Nội",
+        "routers": [
+          { "id": 3, "name": "54", "color": "green" },
+          { "id": 119, "name": "203", "color": "red" },
+          { "id": 3, "name": "204", "color": "green" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.852968, 21.037704]
+      },
+      "properties": {
+        "name": "Hàm Tử Quan",
+        "description": "",
+        "address": "373 Hồng Hà (Trần Nhật Duật)",
+        "district": "Hoàn Kiếm, Hà Nội",
+        "routers": [
+          { "id": 4, "name": "54", "color": "red" },
+          { "id": 118, "name": "203", "color": "green" },
+          { "id": 4, "name": "204", "color": "red" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.870970, 21.042585]
+      },
+      "properties": {
+        "name": "Tổng cục Hải quan",
+        "description": "",
+        "address": "162 Nguyễn Văn Cừ",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 5, "name": "10A", "color": "green" },
+          { "id": 5, "name": "54", "color": "green" },
+          { "id": 117, "name": "203", "color": "red" },
+          { "id": 5, "name": "204", "color": "green" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.870479, 21.042258]
+      },
+      "properties": {
+        "name": "",
+        "description": "",
+        "address": "135 Nguyễn Văn Cừ",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 6, "name": "10A", "color": "red" },
+          { "id": 6, "name": "54", "color": "red" },
+          { "id": 116, "name": "203", "color": "green" },
+          { "id": 6, "name": "204", "color": "red" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.875977, 21.045675]
+      },
+      "properties": {
+        "name": "",
+        "description": "",
+        "address": "358-360 Nguyễn Văn Cừ",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 7, "name": "10A", "color": "green" },
+          { "id": 7, "name": "54", "color": "green" },
+          { "id": 115, "name": "203", "color": "red" },
+          { "id": 7, "name": "204", "color": "green" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.875242, 21.045451]
+      },
+      "properties": {
+        "name": "Cty Cầu 5 Thăng Long",
+        "description": "",
+        "address": "307 Nguyễn Văn Cừ",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 8, "name": "10A", "color": "red" },
+          { "id": 8, "name": "54", "color": "red" },
+          { "id": 114, "name": "203", "color": "green" },
+          { "id": 8, "name": "204", "color": "red" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.878831, 21.047067]
+      },
+      "properties": {
+        "name": "Đối diện Bến xe Gia Lâm",
+        "description": "",
+        "address": "436-438 Nguyễn Văn Cừ",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 9, "name": "10A", "color": "green" },
+          { "id": 9, "name": "54", "color": "green" },
+          { "id": 113, "name": "203", "color": "red" },
+          { "id": 9, "name": "204", "color": "green" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.881811, 21.048515]
+      },
+      "properties": {
+        "name": "",
+        "description": "",
+        "address": "548 Nguyễn Văn Cừ",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 10, "name": "10A", "color": "green" },
+          { "id": 10, "name": "54", "color": "green" },
+          { "id": 112, "name": "203", "color": "red" },
+          { "id": 10, "name": "204", "color": "green" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.883741, 21.049844]
+      },
+      "properties": {
+        "name": "Siêu thị Điện máy HC",
+        "description": "",
+        "address": "549 Nguyễn Văn Cừ",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 11, "name": "10A", "color": "red" },
+          { "id": 11, "name": "54", "color": "red" },
+          { "id": 111, "name": "203", "color": "green" },
+          { "id": 11, "name": "204", "color": "red" },
+          { "id": 98, "name": "210", "color": "green" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.886003, 21.052405]
+      },
+      "properties": {
+        "name": "Phòng Công Chứng số 2 TPHN",
+        "description": "",
+        "address": "658 Nguyễn Văn Cừ",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 12, "name": "10A", "color": "green" },
+          { "id": 12, "name": "54", "color": "green" },
+          { "id": 110, "name": "203", "color": "red" },
+          { "id": 12, "name": "204", "color": "green" },
+          { "id": 97, "name": "210", "color": "red" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.885893, 21.052419]
+      },
+      "properties": {
+        "name": "",
+        "description": "",
+        "address": "589 Nguyễn Văn Cừ",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 13, "name": "10A", "color": "red" },
+          { "id": 13, "name": "54", "color": "red" },
+          { "id": 109, "name": "203", "color": "green" },
+          { "id": 13, "name": "204", "color": "red" },
+          { "id": 96, "name": "210", "color": "green" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.889604, 21.056649]
+      },
+      "properties": {
+        "name": "",
+        "description": "",
+        "address": "18-20 Ngô Gia Tự",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 14, "name": "10A", "color": "green" },
+          { "id": 14, "name": "54", "color": "green" },
+          { "id": 108, "name": "203", "color": "red" },
+          { "id": 95, "name": "210", "color": "red" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.890491, 21.057942]
+      },
+      "properties": {
+        "name": "Bưu cục Long Biên",
+        "description": "",
+        "address": "79 Ngô Gia Tự",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 15, "name": "10A", "color": "red" },
+          { "id": 15, "name": "54", "color": "red" },
+          { "id": 107, "name": "203", "color": "green" },
+          { "id": 94, "name": "210", "color": "green" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.894105, 21.061337]
+      },
+      "properties": {
+        "name": "",
+        "description": "",
+        "address": "170-172 Ngô Gia Tự",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 16, "name": "10A", "color": "green" },
+          { "id": 16, "name": "54", "color": "green" },
+          { "id": 106, "name": "203", "color": "red" },
+          { "id": 93, "name": "210", "color": "red" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.893781, 21.061205]
+      },
+      "properties": {
+        "name": "",
+        "description": "",
+        "address": "285 Ngô Gia Tự",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 17, "name": "10A", "color": "red" },
+          { "id": 17, "name": "54", "color": "red" },
+          { "id": 105, "name": "203", "color": "green" },
+          { "id": 92, "name": "210", "color": "green" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.897164, 21.064485]
+      },
+      "properties": {
+        "name": "",
+        "description": "",
+        "address": "316-318 Ngô Gia Tự",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 18, "name": "10A", "color": "green" },
+          { "id": 18, "name": "54", "color": "green" },
+          { "id": 104, "name": "203", "color": "red" },
+          { "id": 91, "name": "210", "color": "red" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.897459, 21.065048]
+      },
+      "properties": {
+        "name": "",
+        "description": "",
+        "address": "505-507 Ngô Gia Tự",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 19, "name": "10A", "color": "red" },
+          { "id": 19, "name": "54", "color": "red" },
+          { "id": 103, "name": "203", "color": "green" },
+          { "id": 90, "name": "210", "color": "green" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.900905, 21.068396]
+      },
+      "properties": {
+        "name": "",
+        "description": "",
+        "address": "368 Ngô Gia Tự",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 20, "name": "10A", "color": "green" },
+          { "id": 20, "name": "54", "color": "green" },
+          { "id": 102, "name": "203", "color": "red" },
+          { "id": 89, "name": "210", "color": "red" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.900565, 21.068267]
+      },
+      "properties": {
+        "name": "",
+        "description": "",
+        "address": "713-715 Ngô Gia Tự",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 21, "name": "10A", "color": "red" },
+          { "id": 21, "name": "54", "color": "red" },
+          { "id": 101, "name": "203", "color": "green" },
+          { "id": 88, "name": "210", "color": "green" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.906885, 21.074422]
+      },
+      "properties": {
+        "name": "",
+        "description": "",
+        "address": "608-610 Ngô Gia Tự",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 22, "name": "10A", "color": "green" },
+          { "id": 22, "name": "54", "color": "green" },
+          { "id": 100, "name": "203", "color": "red" },
+          { "id": 87, "name": "210", "color": "red" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.906679, 21.074505]
+      },
+      "properties": {
+        "name": "",
+        "description": "",
+        "address": "1095 Ngô Gia Tự",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 23, "name": "10A", "color": "red" },
+          { "id": 23, "name": "54", "color": "red" },
+          { "id": 99, "name": "203", "color": "green" },
+          { "id": 86, "name": "210", "color": "green" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.911487, 21.079572]
+      },
+      "properties": {
+        "name": "Cầu Đuống",
+        "description": "",
+        "address": "44 Hà Huy Tập",
+        "ward": "Yên Viên",
+        "district": "Gia Lâm, Hà Nội",
+        "routers": [
+          { "id": 24, "name": "10A", "color": "green" },
+          { "id": 24, "name": "54", "color": "green" },
+          { "id": 98, "name": "203", "color": "red" },
+          { "id": 85, "name": "210", "color": "red" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.912348, 21.080435]
+      },
+      "properties": {
+        "name": "",
+        "description": "",
+        "address": "115 Hà Huy Tập",
+        "ward": "Yên Viên",
+        "district": "Gia Lâm, Hà Nội",
+        "routers": [
+          { "id": 25, "name": "10A", "color": "red" },
+          { "id": 25, "name": "54", "color": "red" },
+          { "id": 97, "name": "203", "color": "green" },
+          { "id": 84, "name": "210", "color": "green" }
         ]
       }
     },
@@ -5935,10 +6411,10 @@ export let stations = {
         "name": "Ga Yên Viên",
         "description": "",
         "address": "270-272 Hà Huy Tập",
-        "district": "Hà Nội",
+        "ward": "Yên Viên",
+        "district": "Gia Lâm, Hà Nội",
         "routers": [
           { "id": 26, "name": "10A" },
-          { "name": "10B" },
           { "id": 26, "name": "54" },
           { "id": 96, "name": "203" },
           { "id": 83, "name": "210" }
@@ -5955,10 +6431,10 @@ export let stations = {
         "name": "Công ty giày Yên Viên",
         "description": "",
         "address": "488 Hà Huy Tập",
-        "district": "Hà Nội",
+        "ward": "Yên Viên",
+        "district": "Gia Lâm, Hà Nội",
         "routers": [
           { "id": 27, "name": "10A" },
-          { "name": "10B" },
           { "id": 27, "name": "54" },
           { "id": 95, "name": "203" },
           { "id": 82, "name": "210" }
@@ -5975,10 +6451,10 @@ export let stations = {
         "name": "Đường vào Trường THPT Yên Viên",
         "description": "",
         "address": "664 Hà Huy Tập",
-        "district": "Hà Nội",
+        "ward": "Yên Viên",
+        "district": "Gia Lâm, Hà Nội",
         "routers": [
           { "id": 28, "name": "10A" },
-          { "name": "10B" },
           { "id": 28, "name": "54" },
           { "id": 94, "name": "203" },
           { "id": 81, "name": "210" }
@@ -5995,10 +6471,10 @@ export let stations = {
         "name": "Dốc Lã",
         "description": "",
         "address": "Đường Đặng Phúc Thông",
-        "district": "Hà Nội",
+        "ward": "Yên Thường",
+        "district": "Gia Lâm, Hà Nội",
         "routers": [
           { "id": 29, "name": "10A" },
-          { "name": "10B" },
           { "id": 29, "name": "54" },
           { "id": 93, "name": "203" },
           { "id": 80, "name": "210" }
@@ -6015,7 +6491,8 @@ export let stations = {
         "name": "Chợ Trùng Quán",
         "description": "",
         "address": "Đường Đặng Phúc Thông",
-        "district": "Hà Nội",
+        "ward": "Yên Thường",
+        "district": "Gia Lâm, Hà Nội",
         "routers": [
           { "id": 30, "name": "10A" },
           { "id": 30, "name": "54" },
@@ -6233,7 +6710,7 @@ export let stations = {
         "name": "Giáp Bát",
         "description": "Bến xe Giáp Bát",
         "address": "897 Giải Phóng",
-        "district": "Hà Nội",
+        "district": "Hoàng Mai, Hà Nội",
         "routers": [
           { "id": 150, "name": "203", "start": true }
         ]
@@ -6261,14 +6738,653 @@ export let stations = {
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [105.889395, 21.053359]
+      },
+      "properties": {
+        "name": "Cây xăng Cầu Chui",
+        "description": "",
+        "address": "Đường Nguyễn Văn Linh",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 14, "name": "204", "color": "green" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.889904, 21.053296]
+      },
+      "properties": {
+        "name": "MediaMart Long Biên",
+        "description": "",
+        "address": "3 Nguyễn Văn Linh",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 15, "name": "204", "color": "red" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.891850, 21.049924]
+      },
+      "properties": {
+        "name": "Đối diện Savico Megamall Long Biên",
+        "description": "",
+        "address": "Đường Nguyễn Văn Linh",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 16, "name": "204", "color": "green" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.891980, 21.050398]
+      },
+      "properties": {
+        "name": "Savico Megamall Long Biên",
+        "description": "BigC Long Biên",
+        "address": "7-9 Nguyễn Văn Linh",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 17, "name": "204", "color": "red" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.894290, 21.046183]
+      },
+      "properties": {
+        "name": "Đối Diện Công Ty Nước Sạch",
+        "description": "",
+        "address": "Đường Nguyễn Văn Linh",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 18, "name": "204", "color": "green" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.895284, 21.044994]
+      },
+      "properties": {
+        "name": "",
+        "description": "",
+        "address": "105-107 Nguyễn Văn Linh",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 19, "name": "204", "color": "red" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.898232, 21.038693]
+      },
+      "properties": {
+        "name": "Đối Diện UBND Phường Phúc Đồng",
+        "description": "",
+        "address": "Đường Nguyễn Văn Linh",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 20, "name": "204", "color": "green" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.898383, 21.038725]
+      },
+      "properties": {
+        "name": "UBND Phường Phúc Đồng",
+        "description": "",
+        "address": "247 Nguyễn Văn Linh",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 21, "name": "204", "color": "red" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.909832, 21.031800]
+      },
+      "properties": {
+        "name": "KCN Sài Đồng B",
+        "description": "",
+        "address": "Đối diện 523 Nguyễn Văn Linh",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 22, "name": "204", "color": "green" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.907427, 21.033117]
+      },
+      "properties": {
+        "name": "Công ty thí nghiệm miền Bắc",
+        "description": "",
+        "address": "465 Nguyễn Văn Linh",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 23, "name": "204", "color": "red" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.914506, 21.029770]
+      },
+      "properties": {
+        "name": "Ngã tư Thạch Bàn",
+        "description": "",
+        "address": "Đối Diện 693 Nguyễn Văn Linh",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 24, "name": "204", "color": "green" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.914771, 21.029871]
+      },
+      "properties": {
+        "name": "Ngã tư Thạch Bàn",
+        "description": "",
+        "address": "705 Nguyễn Văn Linh",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 25, "name": "204", "color": "red" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.920094, 21.028190]
+      },
+      "properties": {
+        "name": "Ga Cầu Bây",
+        "description": "Đối diện Công ty May 10",
+        "address": "Đường Nguyễn Văn Linh",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 26, "name": "204", "color": "green" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.918368, 21.028800]
+      },
+      "properties": {
+        "name": "Tổng Công ty May 10",
+        "description": "",
+        "address": "765A Nguyễn Văn Linh",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 27, "name": "204", "color": "red" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.923178, 21.027140]
+      },
+      "properties": {
+        "name": "",
+        "description": "",
+        "address": "68 Nguyễn Văn Linh",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 28, "name": "204", "color": "green" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.923308, 21.027270]
+      },
+      "properties": {
+        "name": "Ngã ba Phố Cầu Bây",
+        "description": "",
+        "address": "Đường Nguyễn Văn Linh",
+        "district": "Long Biên, Hà Nội",
+        "routers": [
+          { "id": 29, "name": "204", "color": "red" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.931774, 21.023576]
+      },
+      "properties": {
+        "name": "Cầu Thanh Trì",
+        "description": "",
+        "address": "Đường Nguyễn Đức Thuận",
+        "district": "Gia Lâm, Hà Nội",
+        "routers": [
+          { "id": 30, "name": "204", "color": "green" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.931782, 21.023770]
+      },
+      "properties": {
+        "name": "Cầu Thanh Trì",
+        "description": "",
+        "address": "146 Nguyễn Đức Thuận",
+        "district": "Gia Lâm, Hà Nội",
+        "routers": [
+          { "id": 31, "name": "204", "color": "red" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.936510, 21.021660]
+      },
+      "properties": {
+        "name": "Ngã tư Trâu Quỳ",
+        "description": "",
+        "address": "Đối diện 187 Nguyễn Đức Thuận",
+        "district": "Gia Lâm, Hà Nội",
+        "routers": [
+          { "id": 32, "name": "204", "color": "green" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.937484, 21.021343]
+      },
+      "properties": {
+        "name": "Ngã tư Trâu Quỳ",
+        "description": "",
+        "address": "197 Nguyễn Đức Thuận",
+        "district": "Gia Lâm, Hà Nội",
+        "routers": [
+          { "id": 33, "name": "204", "color": "red" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.942202, 21.018363]
+      },
+      "properties": {
+        "name": "Đối diện Nhà thi đấu Gia Lâm",
+        "description": "",
+        "address": "Đường Nguyễn Đức Thuận",
+        "district": "Gia Lâm, Hà Nội",
+        "routers": [
+          { "id": 34, "name": "204", "color": "green" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.942352, 21.018347]
+      },
+      "properties": {
+        "name": "Nhà thi đấu Gia Lâm",
+        "description": "",
+        "address": "399 Nguyễn Đức Thuận",
+        "district": "Gia Lâm, Hà Nội",
+        "routers": [
+          { "id": 35, "name": "204", "color": "red" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.948903, 21.013473]
+      },
+      "properties": {
+        "name": "Đối diện Cổng KĐT Đặng Xá",
+        "description": "",
+        "address": "Đối diện 815 Nguyễn Đức Thuận",
+        "district": "Gia Lâm, Hà Nội",
+        "routers": [
+          { "id": 36, "name": "204", "color": "green" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.949123, 21.013444]
+      },
+      "properties": {
+        "name": "Cổng KĐT Đặng Xá",
+        "description": "",
+        "address": "827 Nguyễn Đức Thuận",
+        "district": "Gia Lâm, Hà Nội",
+        "routers": [
+          { "id": 37, "name": "204", "color": "red" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.951853, 21.011316]
+      },
+      "properties": {
+        "name": "Ngã ba Kiên Thành",
+        "description": "",
+        "address": "Đối diện 981 Nguyễn Đức Thuận",
+        "district": "Gia Lâm, Hà Nội",
+        "routers": [
+          { "id": 36, "name": "204", "color": "green" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.952213, 21.011190]
+      },
+      "properties": {
+        "name": "Cụm công nghiệp Phú Thị",
+        "description": "",
+        "address": "997 Nguyễn Đức Thuận",
+        "district": "Gia Lâm, Hà Nội",
+        "routers": [
+          { "id": 37, "name": "204", "color": "red" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.958525, 21.006446]
+      },
+      "properties": {
+        "name": "ĐD đường vào Nhà máy sữa Hà Nội",
+        "description": "",
+        "address": "Đường Nguyễn Bình",
+        "district": "Gia Lâm, Hà Nội",
+        "routers": [
+          { "id": 38, "name": "204", "color": "green" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.958577, 21.006554]
+      },
+      "properties": {
+        "name": "Đường vào Nhà máy sữa Hà Nội",
+        "description": "",
+        "address": "Đường Nguyễn Bình",
+        "district": "Gia Lâm, Hà Nội",
+        "routers": [
+          { "id": 39, "name": "204", "color": "red" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.962509, 21.004179]
+      },
+      "properties": {
+        "name": "Ga Phú Thụy",
+        "description": "",
+        "address": "Đường Nguyễn Bình",
+        "district": "Gia Lâm, Hà Nội",
+        "routers": [
+          { "id": 40, "name": "204", "color": "green" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.962535, 21.004282]
+      },
+      "properties": {
+        "name": "ĐD Ga Phú Thụy",
+        "description": "",
+        "address": "Đường Nguyễn Bình",
+        "district": "Gia Lâm, Hà Nội",
+        "routers": [
+          { "id": 41, "name": "204", "color": "red" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.965465, 21.001356]
+      },
+      "properties": {
+        "name": "Cầu vượt Phú Thụy",
+        "description": "",
+        "address": "Đường Nguyễn Bình",
+        "district": "Gia Lâm, Hà Nội",
+        "routers": [
+          { "id": 42, "name": "204", "color": "green" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.965588, 21.001391]
+      },
+      "properties": {
+        "name": "Cầu vượt Phú Thụy",
+        "description": "",
+        "address": "Đường Nguyễn Bình",
+        "district": "Gia Lâm, Hà Nội",
+        "routers": [
+          { "id": 43, "name": "204", "color": "red" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.966757, 21.008431]
+      },
+      "properties": {
+        "name": "Trường THPT Dương Xá",
+        "description": "",
+        "address": "Đường Ỷ Lan",
+        "district": "Gia Lâm, Hà Nội",
+        "routers": [
+          { "id": 44, "name": "204" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.966080, 21.012109]
+      },
+      "properties": {
+        "name": "Đình làng Yên Bình",
+        "description": "",
+        "address": "Đường Ỷ Lan",
+        "district": "Gia Lâm, Hà Nội",
+        "routers": [
+          { "id": 45, "name": "204" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.965060, 21.017434]
+      },
+      "properties": {
+        "name": "Chợ Sủi",
+        "description": "",
+        "address": "Đường Ỷ Lan",
+        "district": "Gia Lâm, Hà Nội",
+        "routers": [
+          { "id": 46, "name": "204" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.970442, 21.022075]
+      },
+      "properties": {
+        "name": "Trung tâm văn hóa thể thao Phú Thị",
+        "description": "",
+        "address": "Đường Dương Đức Hiền",
+        "district": "Gia Lâm, Hà Nội",
+        "routers": [
+          { "id": 47, "name": "204" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.976213, 21.023990]
+      },
+      "properties": {
+        "name": "Cây xăng Petrolimex 65",
+        "description": "",
+        "address": "Đường Dương Đức Hiền",
+        "district": "Gia Lâm, Hà Nội",
+        "routers": [
+          { "id": 48, "name": "204" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.984179, 21.025824]
+      },
+      "properties": {
+        "name": "Đường vào DTLS Kim Sơn",
+        "description": "",
+        "address": "189 Dương Đức Hiền",
+        "district": "Gia Lâm, Hà Nội",
+        "routers": [
+          { "id": 49, "name": "204" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.988575, 21.025955]
+      },
+      "properties": {
+        "name": "UBND xã Kim Sơn",
+        "description": "",
+        "address": "Đường Dương Đức Hiền",
+        "district": "Gia Lâm, Hà Nội",
+        "routers": [
+          { "id": 50, "name": "204" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.998100, 21.027029]
+      },
+      "properties": {
+        "name": "Học viện Tòa Án",
+        "description": "",
+        "address": "Đường Dương Đức Hiền",
+        "district": "Gia Lâm, Hà Nội",
+        "routers": [
+          { "id": 51, "name": "204" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [106.007706, 21.029166]
       },
       "properties": {
         "name": "Bến xe buýt 52A",
         "description": "",
-        "address": "Quốc lộ 17",
-        "ward": "Lệ Chi",
-        "district": "Gia Lâm",
+        "address": "Đường Dương Đức Hiền",
+        "district": "Gia Lâm, Hà Nội",
         "routers": [
           { "id": 60, "name": "204" }
         ]
@@ -6840,13 +7956,13 @@ export let stations = {
       "geometry": {
         "pointId": 18,
         "type": "Point Out Province",
-        "coordinates": [105.878533, 21.047953]
+        "coordinates": [105.878221, 21.048686]
       },
       "properties": {
         "name": "Gia Lâm",
         "description": "Bến xe Gia Lâm",
         "address": "9 Ngô Gia Khảm",
-        "district": "Hà Nội",
+        "district": "Long Biên, Hà Nội",
         "routers": [
           { "id": 99, "name": "210", "start": true }
         ]
@@ -6864,7 +7980,7 @@ export let stations = {
         "name": "Mỹ Đình",
         "description": "Bến xe Mỹ Đình",
         "address": "20 Phạm Hùng",
-        "district": "Hà Nội",
+        "district": "Nam Từ Liêm, Hà Nội",
         "routers": [
           { "id": 1, "name": "212", "start": true }
         ]
@@ -7312,7 +8428,7 @@ export let stations = {
         "address": "Đường Kinh Dương Vương",
         "district": "Thị xã Thuận Thành",
         "routers": [
-          { "id": 76, "name": "217" }
+          { "id": 73, "name": "217" }
         ]
       }
     },
